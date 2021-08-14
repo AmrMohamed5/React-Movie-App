@@ -12,7 +12,7 @@ function App() {
       </header>
           <Filter/>
           <MovieList/>
-          <AddMovie/>    
+          
     </div>
   );
 }
