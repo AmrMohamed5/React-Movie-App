@@ -1,0 +1,30 @@
+[{
+    "poster" : "https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_.jpg" , 
+    "title": "The Conjuring",
+    "bio" : "Horor Movie",
+    "rate" : 8
+},
+{
+    "poster": "https://m.media-amazon.com/images/I/91R4s5EOVFL._SL1500_.jpg",
+    "title" : "Jumanji",
+    "bio" : "Advanture Movie",
+    "rate" : 5
+},
+{
+    "poster":"https://media.elcinema.com/uploads/_315x420_63af364eb1ad67bea245eb955b2f70c96fdd62558af63d7f54c27627c37ad84a.jpg",
+    "title" : "Fast and Furious",
+    "bio" : "Action  Movie",
+    "rate" : 10
+},
+{
+    "poster":"https://m.media-amazon.com/images/M/MV5BOTQwZmQyYzEtODk5ZC00OTY3LWExMjAtYzRjNWFhNGM3MzBlXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
+    "title" : "Annabelle",
+    "bio" : "Horor Movie",
+    "rate" : 4
+},
+{
+    "poster":"https://m.media-amazon.com/images/M/MV5BMjI1MzM2ODEyMV5BMl5BanBnXkFtZTgwNTIzODAwMzE@._V1_FMjpg_UX1000_.jpg",
+    "title" : "Night at the museum",
+    "bio" : "comedy Movie",
+    "rate" : 2
+}]
