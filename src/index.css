@@ -3,25 +3,19 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-.container {
-  padding: 50px 0;
+.btn {
+  margin: 5px;
 }
-.row {
-  padding-left: 150px;
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .card {
-  height: min-content;
-  margin-bottom: 30px;
+  margin: auto;
+  margin-bottom: 20px;
 }
-.card img {
+img {
   height: 400px;
-}
-.modal-body input {
-  text-align: center;
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 30px;
-}
-#customRange1 {
-  width: 30%;
+  width: auto;
 }

@@ -1,20 +1,23 @@
-import React from 'react';
-import MovieCard from './components/MovieCard'
+import { useState } from "react";
+import data from './components/data.json'
+import Filter from "./components/Filter";
 import MovieList from './components/MovieList'
-import Filter from './components/Filter'
-import AddMovie from './components/AddMovie';
 function App() {
+  const [movies , setMovies] = useState(data)
+  const [search , setSearch] = useState('')
+  const [filter , setFilter] = useState(0)
   
+  const clearState = (e) => {
+    e.preventDefault();
+    setFilter(0)
+    setSearch('')
+  }
   return (
-    <div className="App">
-      <header className="App-header">
+    <>
         <h1 style={{textAlign:'center'}}>Movie App</h1>
-      </header>
-          <Filter/>
-          <MovieList/>
-          
-    </div>
+      <Filter setMovies={setMovies} filter={filter} search={search} setSearch={setSearch} setFilter={setFilter} clearState={clearState} />
+      <MovieList movies={movies} filter={filter} search={search}/>
+    </>
   );
 }
-
 export default App;

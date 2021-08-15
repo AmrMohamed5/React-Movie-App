@@ -1,7 +1,7 @@
 [{
     "poster" : "https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_.jpg" , 
     "title": "The Conjuring",
-    "bio" : "Horor Movie",
+    "bio" : "Horror Movie",
     "rate" : 8
 },
 {
@@ -27,4 +27,11 @@
     "title" : "Night at the museum",
     "bio" : "comedy Movie",
     "rate" : 2
-}]
+},
+{
+    "poster":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTMEANdYRErlG5ciJT1yil85GEsxPyzMRpo4zaiKqhcGOfcxQfC",
+    "title" : "The Insidious",
+    "bio" : "Horror Movie",
+    "rate" : 7 
+}
+]
