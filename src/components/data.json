@@ -1,37 +1,49 @@
 [{
+    "trailer" : "https://www.youtube.com/embed/bBRAseMeAIU",
     "poster" : "https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_.jpg" , 
     "title": "The Conjuring",
     "bio" : "Horror Movie",
-    "rate" : 8
+    "rate" : 8,
+    "id" : 1
 },
 {
+    "trailer" : "https://www.youtube.com/embed/2QKg5SZ_35I",
     "poster": "https://m.media-amazon.com/images/I/91R4s5EOVFL._SL1500_.jpg",
     "title" : "Jumanji",
     "bio" : "Advanture Movie",
-    "rate" : 5
+    "rate" : 5,
+    "id" : 2
 },
 {
+    "trailer" : "https://www.youtube.com/embed/_qyw6LC5pnE",
     "poster":"https://media.elcinema.com/uploads/_315x420_63af364eb1ad67bea245eb955b2f70c96fdd62558af63d7f54c27627c37ad84a.jpg",
     "title" : "Fast and Furious",
     "bio" : "Action  Movie",
-    "rate" : 10
+    "rate" : 10,
+    "id" : 3
 },
 {
+    "trailer" : "https://www.youtube.com/embed/paFgQNPGlsg",
     "poster":"https://m.media-amazon.com/images/M/MV5BOTQwZmQyYzEtODk5ZC00OTY3LWExMjAtYzRjNWFhNGM3MzBlXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
     "title" : "Annabelle",
     "bio" : "Horor Movie",
-    "rate" : 4
+    "rate" : 4,
+    "id" : 4
 },
 {
+    "trailer" : "https://www.youtube.com/embed/Ltba1_-tRT4",
     "poster":"https://m.media-amazon.com/images/M/MV5BMjI1MzM2ODEyMV5BMl5BanBnXkFtZTgwNTIzODAwMzE@._V1_FMjpg_UX1000_.jpg",
     "title" : "Night at the museum",
     "bio" : "comedy Movie",
-    "rate" : 2
+    "rate" : 2,
+    "id" : 5
 },
 {
+    "trailer" : "https://www.youtube.com/embed/acQyrwQyCOk",
     "poster":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTMEANdYRErlG5ciJT1yil85GEsxPyzMRpo4zaiKqhcGOfcxQfC",
     "title" : "The Insidious",
     "bio" : "Horror Movie",
-    "rate" : 7 
+    "rate" : 7,
+    "id" : 6
 }
 ]

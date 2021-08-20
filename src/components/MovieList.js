@@ -1,5 +1,6 @@
 import MovieCard from './MovieCard';
-const MovieList = ({movies , filter,search}) => {
+import { Link } from 'react-router-dom';
+const MovieList = ({movies , filter,search,}) => {
     return ( 
         <section className='container'>
     { movies.filter((el) => { 
@@ -10,7 +11,11 @@ const MovieList = ({movies , filter,search}) => {
 					return el.rate >= filter 
 				}
 			}).map((movie) => (
-                <MovieCard title = {movie.title} poster = {movie.poster} bio = {movie.bio} rate = {movie.rate} />
+               <div className=''>
+               <Link to={`/${movie.id}`} style = {{textDecoration : "none", color: "black"}} > 
+                <MovieCard id={movie.id} title = {movie.title} poster = {movie.poster} bio = {movie.bio} rate = {movie.rate} />
+                </Link>
+                </div>
 			))}
         </section>
         )
